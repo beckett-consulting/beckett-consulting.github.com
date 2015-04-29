@@ -1,0 +1,11 @@
+# Site settings
+title: Beckett Consulting
+email: contact@beckett.consulting
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://beckett.consulting" # the base hostname & protocol for your site
+twitter_username: bec_consulting
+github_username:  beckett-consulting
+
+# Build settings
+markdown: kramdown
