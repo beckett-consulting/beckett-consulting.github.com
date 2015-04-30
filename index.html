@@ -3,21 +3,11 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <h1 class="business-name">Beckett Consulting</h1>
+  <p class="slogan">Web application development.</p>
+</div>
+<div class="rates">
+  <h3>Let's start the process.</h3>
+  <p>Projects start at $65 per hour.</p>
+  <p><a href="mailto:contact@kenrick.me">Get in touch</a> for availability.</p>
 </div>
