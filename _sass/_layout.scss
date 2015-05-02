@@ -164,7 +164,7 @@
 .home {
   color: #fff;
   background-color: $brand-color;
-  padding: 120px 0;
+  padding: 100px 0;
 }
 
 .business-name {
@@ -180,12 +180,13 @@
 }
 
 .rates {
-  padding: 30px 0;
+  padding: 100px 0;
+  color: $brand-color;
+  background-color: #FFF;
 
   h3 {
     font-size: 43px;
     font-weight: bold;
-    color: #000;
   }
 
   p {
